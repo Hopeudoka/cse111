@@ -10,18 +10,30 @@ CSE 111 Proposal for a Student Chosen Program
     knowledge.)
 
 1. What is the title of your program?
+    A Python Website Blocker
 
 2. What real-world problem will your program address or help to solve?
+    The internet is vast, and contains a lot of wonderful informations, but it 
+    also conatins harmful contents. This contents are displayed on websites that 
+    may randomly show up in search results or clicked url. This full web access 
+    can be a problem especially with minors having more access to the internet. This 
+    is a problem that the 'Python Website Blocker' can solve.
+    This project will help limit access to certain unwanted websites. It can help 
+    prevent websites notifications or distractions while working or studying, and
+    protect from sexually damaging contents on websites.
 
 3. What will you learn from developing this program?
+    I will undestand the complete cycle of a python project. 
+    How python projects to integrate it to the web.
+    I will learn to troubleshoot real-world problems as i encounter them in this project.
 
 4. What Python modules will your program use?
-
+    os, datetime, pytest, requests, tkinter
     (Some examples are: csv, datetime, functools, matplotlib, math,
     pandas, pytest, random, requests, and tkinter.)
 
 5. List the names of functions you will need?
-
+    main, block_websites, block_time, start_blocker, unblock_websites
     (Remember that the most reusable functions don't get user input and
     don't print results but instead have parameters and return a result.
     Functions that get user input and print results are important and do
@@ -34,4 +46,4 @@ CSE 111 Proposal for a Student Chosen Program
     to have parameters and return a result.)
 
 6. List the names of the test functions you will write.
-
+    test_block_time, test_block_starter, test_block_websites, test_unblock_websites
